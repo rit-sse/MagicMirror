@@ -55,12 +55,10 @@
     "stylelint-config-standard": "latest",
     "time-grunt": "latest"
   },
-  "optionalDependencies": {
-    "electron": "^3.0.13"
-  },
   "dependencies": {
     "colors": "^1.1.2",
     "console-stamp": "^0.2.9",
+    "electron": "^6.0.12",
     "express": "^4.16.2",
     "express-ipfilter": "^1.0.1",
     "feedme": "latest",
