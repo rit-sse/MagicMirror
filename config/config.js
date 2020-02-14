@@ -7,10 +7,6 @@ var config = {
 						  // - "", "0.0.0.0", "::" to listen on any interface
 						  // Default, when address config is left out, is "localhost"
 	port: 8080,
-	electronOptions: {
-		width: 500,
-		height: 500
-	},
 	ipWhitelist: ["127.0.0.1", "::ffff:127.0.0.1", "::1"], // Set [] to allow all IP addresses
 														   // or add a specific IPv4 of 192.168.1.5 :
 														   // ["127.0.0.1", "::ffff:127.0.0.1", "::1", "::ffff:192.168.1.5"],
